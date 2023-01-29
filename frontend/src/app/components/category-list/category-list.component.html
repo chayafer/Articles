@@ -1,0 +1,13 @@
+<div>
+<!-- <h2>Choose a category to see an article</h2> -->
+<mat-nav-list>
+  <mat-list-item *ngFor="let link of categories | async">
+    <a matLine [routerLink]="['/article-list', link.id]" >
+      <mat-icon [class]="link.CSSClass"></mat-icon>
+      <span class="link-caption">{{ link.name }}</span>
+    </a>
+    <!-- <h4 matline> {{ link.info }} </h4> -->
+  </mat-list-item>
+</mat-nav-list>
+<mat-divider></mat-divider>
+</div>

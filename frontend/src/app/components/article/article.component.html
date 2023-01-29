@@ -1,0 +1,20 @@
+<!-- <div class="box" [ngStyle]="{'background': color}"></div> -->
+
+<div class="content" *ngIf="!mode || article.isFavorite">
+  <mat-card class="mat-elevation-z4">
+    <mat-card-header>
+      <mat-card-title>{{article.title}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="article.image">
+    <mat-card-content>
+      <p>
+        {{article.description}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button *ngIf="article.isFavorite" (click)="removeFromFavorite(article)">REMOVE FROM FAVORITE</button>
+      <button mat-button *ngIf="!article.isFavorite" (click)="addTofavorite(article)">ADD TO FAVORITE</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+

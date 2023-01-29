@@ -1,0 +1,23 @@
+div {
+    width: 28rem;
+    height: 30rem;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .content {
+    padding: 16px;
+}
+
+.content > mat-card {
+    width: 350px;
+
+}
+.mat-mdc-card-content{
+overflow:auto;
+  height:100px;
+}
+
+.mat-mdc-card-image mdc-card__media{
+  height:300px;
+}
