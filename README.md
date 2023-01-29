@@ -2,11 +2,12 @@
 
 There are two folders
 
-Backend -  .net project 
+Backend -
+<br>.net project 
           <br>
           the script to init the DB
           <br>
           .jon file with the data
 <br>
-Frontend -  angular project
+Frontend -<br>  angular project
 
