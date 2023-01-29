@@ -2,7 +2,11 @@
 
 There are two folders
 
-Backend - for the .net project and the script to init the db
+Backend -  .net project 
+          <br>
+          the script to init the DB
+          <br>
+          .jon file with the data
 <br>
-Frontend - for the angular project
+Frontend -  angular project
 
